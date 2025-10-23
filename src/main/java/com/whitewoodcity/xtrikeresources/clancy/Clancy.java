@@ -23,4 +23,12 @@ public class Clancy {
   public static final String RIGHT_WRIST = "right_wrist.jvg";
 
   public static final List<String> COMPONENTS = List.of(RIGHT_ARM, RIGHT_WRIST, RIGHT_CALF, RIGHT_SHOE, RIGHT_THIGH, RIGHT_KNEE, LEFT_CALF, LEFT_SHOE, LEFT_THIGH, LEFT_KNEE, BODY_BACK, HEAD, BODY_FRONT, LEFT_ARM, LEFT_WRIST, LEFT_ELBOW);
+
+  public static String getJsonString(String component){
+    try (var inputStream = Clancy.class.getResourceAsStream(component)){
+      return new String(inputStream.readAllBytes());
+    } catch (Exception e) {
+      throw new RuntimeException(e);
+    }
+  }
 }
