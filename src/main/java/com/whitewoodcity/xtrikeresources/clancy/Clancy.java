@@ -1,4 +1,7 @@
-package com.whitewoodcity.xtrikeresources;
+package com.whitewoodcity.xtrikeresources.clancy;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Clancy {
   public static final String HEAD = "head.jvg";
@@ -19,4 +22,25 @@ public class Clancy {
   public static final String RIGHT_SHOE = "right_shoe.jvg";
   public static final String RIGHT_THIGH = "right_thigh.jvg";
   public static final String RIGHT_WRIST = "right_wrist.jvg";
+
+  public static final List<String> components = new ArrayList<>();
+
+  static {
+    components.add(RIGHT_ARM);
+    components.add(RIGHT_WRIST);
+    components.add(RIGHT_CALF);
+    components.add(RIGHT_SHOE);
+    components.add(RIGHT_THIGH);
+    components.add(RIGHT_KNEE);
+    components.add(LEFT_CALF);
+    components.add(LEFT_SHOE);
+    components.add(LEFT_THIGH);
+    components.add(LEFT_KNEE);
+    components.add(BODY_BACK);
+    components.add(HEAD);
+    components.add(BODY_FRONT);
+    components.add(LEFT_ARM);
+    components.add(LEFT_WRIST);
+    components.add(LEFT_ELBOW);
+  }
 }
