@@ -2,27 +2,29 @@ package com.whitewoodcity.xtrikeresources.clancy;
 
 public enum Component {
 
-  HEAD        ("head.jvg"),
-  BODY_BACK   ("body_back.jvg"),
-  BODY_FRONT  ("body_front.jvg"),
-  LEFT_ARM    ("left_arm.jvg"),
-  LEFT_CALF   ("left_calf.jvg"),
-  LEFT_ELBOW  ("left_elbow.jvg"),
-  LEFT_KNEE   ("left_knee.jvg"),
-  LEFT_SHOE   ("left_shoe.jvg"),
-  LEFT_THIGH  ("left_thigh.jvg"),
-  LEFT_WRIST  ("left_wrist.jvg"),
-  RIGHT_ARM   ("right_arm.jvg"),
-  RIGHT_CALF  ("right_calf.jvg"),
-  RIGHT_KNEE  ("right_knee.jvg"),
-  RIGHT_SHOE  ("right_shoe.jvg"),
-  RIGHT_THIGH ("right_thigh.jvg"),
-  RIGHT_WRIST ("right_wrist.jvg");
+  HEAD        ("head.jvg", 1),
+  BODY_BACK   ("body_back.jvg", 1),
+  BODY_FRONT  ("body_front.jvg",1),
+  LEFT_ARM    ("left_arm.jvg",1),
+  LEFT_CALF   ("left_calf.jvg",2),
+  LEFT_ELBOW  ("left_elbow.jvg",2),
+  LEFT_KNEE   ("left_knee.jvg",2),
+  LEFT_SHOE   ("left_shoe.jvg",3),
+  LEFT_THIGH  ("left_thigh.jvg",1),
+  LEFT_WRIST  ("left_wrist.jvg",3),
+  RIGHT_ARM   ("right_arm.jvg",1),
+  RIGHT_CALF  ("right_calf.jvg",2),
+  RIGHT_KNEE  ("right_knee.jvg",2),
+  RIGHT_SHOE  ("right_shoe.jvg",3),
+  RIGHT_THIGH ("right_thigh.jvg",1),
+  RIGHT_WRIST ("right_wrist.jvg",2);
 
   final String jvg;
+  final int rotateNum;
 
-  Component(String jvg) {
+  Component(String jvg, int rotateNum) {
     this.jvg = jvg;
+    this.rotateNum = rotateNum;
   }
 
   public String getJsonString(){
