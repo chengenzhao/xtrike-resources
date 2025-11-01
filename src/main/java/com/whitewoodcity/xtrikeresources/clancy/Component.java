@@ -34,4 +34,8 @@ public enum Component {
       throw new RuntimeException(e);
     }
   }
+
+  public int rotateNum() {
+    return rotateNum;
+  }
 }
