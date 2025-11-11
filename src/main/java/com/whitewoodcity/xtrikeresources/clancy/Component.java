@@ -1,6 +1,6 @@
 package com.whitewoodcity.xtrikeresources.clancy;
 
-public enum Component {
+public enum Component implements JsonFile {
 
   HEAD        ("head.jvg", 1),
   BODY_BACK   ("body_back.jvg", 1),
@@ -27,15 +27,14 @@ public enum Component {
     this.rotateNum = rotateNum;
   }
 
-  public String getJsonString(){
-    try (var inputStream = Clancy.class.getResourceAsStream(jvg)){
-      return new String(inputStream.readAllBytes());
-    } catch (Exception e) {
-      throw new RuntimeException(e);
-    }
-  }
+
 
   public int rotateNum() {
     return rotateNum;
+  }
+
+  @Override
+  public String getFileName() {
+    return jvg;
   }
 }

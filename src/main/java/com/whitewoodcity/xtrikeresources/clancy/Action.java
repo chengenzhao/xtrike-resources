@@ -1,6 +1,6 @@
 package com.whitewoodcity.xtrikeresources.clancy;
 
-public enum Action {
+public enum Action implements JsonFile {
   IDLE("idle.act");
 
   final String act;
@@ -9,11 +9,8 @@ public enum Action {
     this.act = act;
   }
 
-  public String getJsonString(){
-    try (var inputStream = Clancy.class.getResourceAsStream(act)){
-      return new String(inputStream.readAllBytes());
-    } catch (Exception e) {
-      throw new RuntimeException(e);
-    }
+  @Override
+  public String getFileName() {
+    return act;
   }
 }
