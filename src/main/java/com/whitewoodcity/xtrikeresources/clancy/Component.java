@@ -27,8 +27,6 @@ public enum Component implements JsonFile {
     this.rotateNum = rotateNum;
   }
 
-
-
   public int rotateNum() {
     return rotateNum;
   }
