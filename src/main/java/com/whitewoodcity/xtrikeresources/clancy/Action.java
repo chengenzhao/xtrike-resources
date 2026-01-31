@@ -1,6 +1,7 @@
 package com.whitewoodcity.xtrikeresources.clancy;
 
 public enum Action implements JsonFile {
+  TEST("test.act"),
   IDLE("idle.act");
 
   final String act;
