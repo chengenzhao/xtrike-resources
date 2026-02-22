@@ -1,8 +1,9 @@
 package com.whitewoodcity.xtrikeresources.clancy;
 
 public enum Action implements JsonFile {
-  IDLE("idle.act"),
-  WALK("walk.act");
+  WALK("walk.act"),
+  RUN("run.act"),
+  IDLE("idle.act");
 
   final String act;
 
