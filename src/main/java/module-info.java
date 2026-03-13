@@ -1,4 +1,3 @@
-module com.whitewoodcity.xtrikeresources {
-  opens com.whitewoodcity.xtrikeresources.clancy;
+open module com.whitewoodcity.xtrikeresources {
   exports com.whitewoodcity.xtrikeresources.clancy;
 }
