@@ -4,7 +4,9 @@ public enum Action implements JsonFile {
   WALK("walk.act"),
   RUN("run.act"),
   JUMP("jump.act"),
-  IDLE("idle.act");
+  IDLE("idle.act"),
+
+  ALERT("alert.act"),SHOOT("shoot.act");
 
   final String act;
 
