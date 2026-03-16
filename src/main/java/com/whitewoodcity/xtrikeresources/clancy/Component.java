@@ -17,7 +17,10 @@ public enum Component implements JsonFile {
   RIGHT_KNEE  ("right_knee.jvg",2),
   RIGHT_SHOE  ("right_shoe.jvg",3),
   RIGHT_THIGH ("right_thigh.jvg",1),
-  RIGHT_WRIST ("right_wrist.jvg",2);
+  RIGHT_WRIST ("right_wrist.jvg",2),
+
+  //weapons
+  SCARL       ("scarl.jvg",1);
 
   final String jvg;
   final int rotateNum;
