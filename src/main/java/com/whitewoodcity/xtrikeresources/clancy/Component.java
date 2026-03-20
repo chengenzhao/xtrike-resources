@@ -20,7 +20,8 @@ public enum Component implements JsonFile {
   RIGHT_WRIST ("right_wrist.jvg",2),
 
   //weapons
-  SCARL       ("scarl.jvg",1);
+  SCARL       ("scarl.jvg",1),
+  RIGHT_PALM  ("right_palm.jvg",1);
 
   final String jvg;
   final int rotateNum;
