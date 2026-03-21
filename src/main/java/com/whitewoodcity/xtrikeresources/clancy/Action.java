@@ -6,7 +6,11 @@ public enum Action implements JsonFile {
   JUMP("jump.act"),
   IDLE("idle.act"),
 
-  ALERT("alert.act"),SHOOT("shoot.act"),FIRE("fire.act");
+  ALERT("alert.act"),
+  SHOOT("shoot.act"),
+  FIRE("fire.act"),
+
+  FLAME("flame.act");
 
   final String act;
 
