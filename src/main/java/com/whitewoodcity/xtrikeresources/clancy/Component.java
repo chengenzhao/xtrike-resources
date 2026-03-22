@@ -28,6 +28,8 @@ public enum Component implements JsonFile {
   FLAME1("flame1.jvg",1),
   FLAME2("flame2.jvg",1),
   FLAME3("flame3.jvg",1),
+  FLAME4("flame4.jvg",1),
+  FLAME5("flame5.jvg",1),
   ;
 
   final String jvg;

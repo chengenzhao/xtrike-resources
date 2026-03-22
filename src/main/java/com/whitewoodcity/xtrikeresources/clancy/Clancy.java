@@ -25,6 +25,6 @@ public class Clancy {
   public static final List<Action> BATTLE_UPPER_ACTIONS = List.of(ALERT, SHOOT, FIRE);
   public static final List<Component> BATTLE_LOWER_BODY = List.of(RIGHT_CALF, RIGHT_SHOE, RIGHT_THIGH, RIGHT_KNEE, LEFT_CALF, LEFT_SHOE, LEFT_THIGH, LEFT_KNEE);
   public static final List<Action> BATTLE_LOWER_ACTIONS = List.of(IDLE, WALK, RUN, JUMP);
-  public static final List<Component> FLAME_COMPONENTS  = List.of(FLAME0, FLAME1, FLAME2, FLAME3);
+  public static final List<Component> FLAME_COMPONENTS  = List.of(FLAME0, FLAME1, FLAME2, FLAME3, FLAME4, FLAME5);
   public static final List<Action> FLAME_ACTIONS        = List.of(FLAME);
 }
