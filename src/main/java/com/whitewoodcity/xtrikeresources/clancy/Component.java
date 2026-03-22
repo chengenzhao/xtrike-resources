@@ -24,10 +24,10 @@ public enum Component implements JsonFile {
   RIGHT_PALM  ("right_palm.jvg",1),
 
   //flame
-  FLAMEA      ("flame0.jvg",1),
-  FLAMEB      ("flame1.jvg",1),
-  FLAMEC      ("flame2.jvg",1),
-  FLAMED      ("flame3.jvg",1),
+  FLAME0("flame0.jvg",1),
+  FLAME1("flame1.jvg",1),
+  FLAME2("flame2.jvg",1),
+  FLAME3("flame3.jvg",1),
   ;
 
   final String jvg;
