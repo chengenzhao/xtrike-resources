@@ -7,7 +7,6 @@ public interface JsonFile {
   default String getJsonString(){
     try (var inputStream = Clancy.class.getResourceAsStream(getFileName())){
       return new String(inputStream.readAllBytes());
-
     } catch (Exception e) {
       throw new RuntimeException(e);
     }
