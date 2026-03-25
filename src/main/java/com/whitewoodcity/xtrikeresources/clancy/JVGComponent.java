@@ -1,6 +1,6 @@
 package com.whitewoodcity.xtrikeresources.clancy;
 
-public enum Component implements JsonFile {
+public enum JVGComponent implements JsonFile {
 
   HEAD        ("head.jvg", 1),
   BODY_BACK   ("body_back.jvg", 1),
@@ -35,7 +35,7 @@ public enum Component implements JsonFile {
   final String jvg;
   final int rotateNum;
 
-  Component(String jvg, int rotateNum) {
+  JVGComponent(String jvg, int rotateNum) {
     this.jvg = jvg;
     this.rotateNum = rotateNum;
   }
