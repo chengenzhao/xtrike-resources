@@ -1,5 +1,7 @@
 package com.whitewoodcity.xtrikeresources.yang;
 
+import com.whitewoodcity.xtrikeresources.JsonFile;
+
 public enum Action implements JsonFile {
   IDLE("idle.act");
 

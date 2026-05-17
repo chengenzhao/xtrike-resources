@@ -1,12 +1,11 @@
-package com.whitewoodcity.xtrikeresources.yang;
+package com.whitewoodcity.xtrikeresources;
 
-@Deprecated
 public interface JsonFile {
 
   String getFileName();
 
   default String getJsonString(){
-    try (var inputStream = Yang.class.getResourceAsStream(getFileName())){
+    try (var inputStream = getClass().getResourceAsStream(getFileName())){
       return new String(inputStream.readAllBytes());
     } catch (Exception e) {
       throw new RuntimeException(e);

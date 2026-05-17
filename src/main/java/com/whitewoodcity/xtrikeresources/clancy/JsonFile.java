@@ -1,5 +1,6 @@
 package com.whitewoodcity.xtrikeresources.clancy;
 
+@Deprecated
 public interface JsonFile {
 
   String getFileName();

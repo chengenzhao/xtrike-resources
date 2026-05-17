@@ -1,5 +1,7 @@
 package com.whitewoodcity.xtrikeresources.clancy;
 
+import com.whitewoodcity.xtrikeresources.JsonFile;
+
 public enum JVGComponent implements JsonFile {
 
   HEAD        ("head.jvg", 1),

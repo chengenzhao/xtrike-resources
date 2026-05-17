@@ -1,5 +1,7 @@
 package com.whitewoodcity.xtrikeresources.clancy;
 
+import com.whitewoodcity.xtrikeresources.JsonFile;
+
 public enum Action implements JsonFile {
   WALK("walk.act"),
   RUN("run.act"),

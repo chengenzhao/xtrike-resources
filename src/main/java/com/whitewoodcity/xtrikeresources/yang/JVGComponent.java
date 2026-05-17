@@ -1,5 +1,7 @@
 package com.whitewoodcity.xtrikeresources.yang;
 
+import com.whitewoodcity.xtrikeresources.JsonFile;
+
 public enum JVGComponent implements JsonFile {
   EPAULETTES        ("epaulettes.jvg", 1),
   LEFT_ARM          ("left_arm.jvg", 1),
