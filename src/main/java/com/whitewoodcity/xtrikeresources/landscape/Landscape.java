@@ -1,13 +1,13 @@
-package com.whitewoodcity.xtrikeresources.sky;
+package com.whitewoodcity.xtrikeresources.landscape;
 
 import com.whitewoodcity.xtrikeresources.JsonFile;
 
-public enum JVGComponent implements JsonFile {
+public enum Landscape implements JsonFile {
   CLOUD("cloud.jvg");
 
   final String jvg;
 
-  JVGComponent(String jvg) {
+  Landscape(String jvg) {
     this.jvg = jvg;
   }
 
