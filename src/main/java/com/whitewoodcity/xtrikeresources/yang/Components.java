@@ -19,8 +19,8 @@ public enum Components implements JVGComponent {
   RIGHT_THIGH       ("right_thigh.jvg",1),
   RIGHT_ARM         ("right_arm.jvg",1),
   RIGHT_HAND        ("right_hand.jvg",2),
-
   ;
+
   final String jvg;
   final int rotateNum;
 
