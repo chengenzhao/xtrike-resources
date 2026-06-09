@@ -1,8 +1,8 @@
 package com.whitewoodcity.xtrikeresources.yang;
 
-import com.whitewoodcity.xtrikeresources.JsonFile;
+import com.whitewoodcity.xtrikeresources.JVGComponent;
 
-public enum JVGComponent implements JsonFile {
+public enum Components implements JVGComponent {
   EPAULETTES        ("epaulettes.jvg", 1),
   LEFT_ARM          ("left_arm.jvg", 1),
   LEFT_HAND         ("left_hand.jvg", 2),
@@ -24,7 +24,7 @@ public enum JVGComponent implements JsonFile {
   final String jvg;
   final int rotateNum;
 
-  JVGComponent(String jvg, int rotateNum) {
+  Components(String jvg, int rotateNum) {
     this.jvg = jvg;
     this.rotateNum = rotateNum;
   }
