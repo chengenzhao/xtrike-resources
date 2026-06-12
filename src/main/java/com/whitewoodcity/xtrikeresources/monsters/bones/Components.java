@@ -4,6 +4,7 @@ import com.whitewoodcity.xtrikeresources.JVGComponent;
 
 public enum Components implements JVGComponent {
   BLADE("blade.jvg",1),
+  HEAD("head.jvg",1),
   ;
 
   final String jvg;
