@@ -6,6 +6,7 @@ public enum Components implements JVGComponent {
   BLADE("blade.jvg",1),
   HEAD("head.jvg",1),
   RIGHT_ARM("right_arm.jvg",1),
+  LEFT_SHOULDER("left_shoulder.jvg",1),
   ;
 
   final String jvg;
