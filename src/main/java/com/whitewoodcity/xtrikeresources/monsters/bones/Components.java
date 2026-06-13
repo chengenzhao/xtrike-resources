@@ -9,6 +9,7 @@ public enum Components implements JVGComponent {
   LEFT_SHOULDER("left_shoulder.jvg",1),
   LEFT_ARM("left_arm.jvg",1),
   LEFT_HAND("left_hand.jvg",1),
+  LEFT_FOOT("left_foot.jvg",1),
   ;
 
   final String jvg;
