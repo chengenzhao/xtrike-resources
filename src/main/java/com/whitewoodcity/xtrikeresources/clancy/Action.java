@@ -24,4 +24,11 @@ public enum Action implements JsonFile {
   public String getFileName() {
     return act;
   }
+
+  @Override
+  public Class<Action> getCurrentClass() {
+    return Action.class;
+  }
+
+
 }

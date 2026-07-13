@@ -37,4 +37,9 @@ public enum Components implements JVGComponent {
   public String getFileName() {
     return jvg;
   }
+
+  @Override
+  public Class getCurrentClass() {
+    return Components.class;
+  }
 }

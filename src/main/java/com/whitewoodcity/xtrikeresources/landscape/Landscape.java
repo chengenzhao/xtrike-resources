@@ -15,4 +15,9 @@ public enum Landscape implements JsonFile {
   public String getFileName() {
     return jvg;
   }
+
+  @Override
+  public Class<Landscape> getCurrentClass() {
+    return Landscape.class;
+  }
 }
