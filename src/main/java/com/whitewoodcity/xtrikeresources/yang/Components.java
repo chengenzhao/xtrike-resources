@@ -38,8 +38,4 @@ public enum Components implements JVGComponent {
     return jvg;
   }
 
-  @Override
-  public Class getCurrentClass() {
-    return Components.class;
-  }
 }

@@ -16,8 +16,4 @@ public enum Action implements JsonFile {
     return act;
   }
 
-  @Override
-  public Class getCurrentClass() {
-    return Action.class;
-  }
 }

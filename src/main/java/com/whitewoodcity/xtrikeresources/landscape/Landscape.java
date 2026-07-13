@@ -16,8 +16,4 @@ public enum Landscape implements JsonFile {
     return jvg;
   }
 
-  @Override
-  public Class<Landscape> getCurrentClass() {
-    return Landscape.class;
-  }
 }
