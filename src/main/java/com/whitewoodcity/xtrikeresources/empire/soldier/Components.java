@@ -9,13 +9,13 @@ public enum Components implements JVGComponent {
   RIGHT_HAND("right_hand.jvg",2),
   GUN("gun.jvg",1),
   LEFT_THIGH("left_thigh.jvg",1),
+  LEFT_SHOE("left_shoe.jvg",3),
+  LEFT_CALF("left_calf.jvg",2),
   BODY("body.jvg",1),
   RIGHT_ARM("right_arm.jvg",1),
   RIGHT_THIGH("right_thigh.jvg",1),
   RIGHT_CALF("right_calf.jvg",2),
   RIGHT_SHOE("right_shoe.jvg",3),
-  LEFT_SHOE("left_shoe.jvg",3),
-  LEFT_CALF("left_calf.jvg",2),
   ;
 
   final String jvg;
