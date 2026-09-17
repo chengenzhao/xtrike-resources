@@ -10,5 +10,5 @@ import static com.whitewoodcity.xtrikeresources.empire.soldier.Action.*;
 
 public class Soldier {
   public static final List<JVGComponent> JVG_COMPONENTS       = List.of(RIGHT_SHOE,RIGHT_CALF,RIGHT_THIGH,RIGHT_ARM,RIGHT_SHOULDER,CROTCH,LEFT_CALF,LEFT_SHOE,LEFT_THIGH,BODY,GUN,RIGHT_HAND,LEFT_ARM,HEAD,LEFT_SHOULDER);
-  public static final List<JsonFile> ACTIONS            = List.of(IDLE);
+  public static final List<JsonFile> ACTIONS            = List.of(IDLE,WALK);
 }
