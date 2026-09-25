@@ -5,8 +5,8 @@ import com.whitewoodcity.xtrikeresources.JsonFile;
 public enum Action implements JsonFile {
   IDLE("idle.act"),
   WALK("walk.act"),
-  ATTACK("attack.act"),
   THRUST("thrust.act"),
+  SHOOT("shoot.act"),
   ;
 
   final String act;
