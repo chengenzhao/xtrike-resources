@@ -1,12 +1,12 @@
-package com.whitewoodcity.xtrikeresources.clancy;
+package com.whitewoodcity.xtrikeresources.characters.clancy;
 
 import com.whitewoodcity.xtrikeresources.JVGComponent;
 import com.whitewoodcity.xtrikeresources.JsonFile;
 
 import java.util.List;
 
-import static com.whitewoodcity.xtrikeresources.clancy.Action.*;
-import static com.whitewoodcity.xtrikeresources.clancy.Components.*;
+import static com.whitewoodcity.xtrikeresources.characters.clancy.Action.*;
+import static com.whitewoodcity.xtrikeresources.characters.clancy.Components.*;
 
 public class Clancy {
   public static final List<JVGComponent> CASUAL_JVG_COMPONENTS = List.of(RIGHT_ARM, RIGHT_WRIST, RIGHT_CALF, RIGHT_SHOE, RIGHT_THIGH, RIGHT_KNEE, LEFT_CALF, LEFT_SHOE, LEFT_THIGH, LEFT_KNEE, BODY_BACK, HEAD, BODY_FRONT, LEFT_ARM, LEFT_WRIST, LEFT_ELBOW);

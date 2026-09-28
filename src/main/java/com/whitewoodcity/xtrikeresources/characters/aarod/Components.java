@@ -1,4 +1,4 @@
-package com.whitewoodcity.xtrikeresources.aarod;
+package com.whitewoodcity.xtrikeresources.characters.aarod;
 
 import com.whitewoodcity.xtrikeresources.JVGComponent;
 

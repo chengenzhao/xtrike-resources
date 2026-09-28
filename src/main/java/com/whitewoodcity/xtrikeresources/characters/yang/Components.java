@@ -1,4 +1,4 @@
-package com.whitewoodcity.xtrikeresources.yang;
+package com.whitewoodcity.xtrikeresources.characters.yang;
 
 import com.whitewoodcity.xtrikeresources.JVGComponent;
 

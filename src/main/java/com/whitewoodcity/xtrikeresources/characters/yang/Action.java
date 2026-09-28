@@ -1,18 +1,9 @@
-package com.whitewoodcity.xtrikeresources.clancy;
+package com.whitewoodcity.xtrikeresources.characters.yang;
 
 import com.whitewoodcity.xtrikeresources.JsonFile;
 
 public enum Action implements JsonFile {
-  WALK("walk.act"),
-  RUN("run.act"),
-  JUMP("jump.act"),
-  IDLE("idle.act"),
-
-  ALERT("alert.act"),
-  SHOOT("shoot.act"),
-  FIRE("fire.act"),
-
-  FLAME("flame.act");
+  IDLE("idle.act");
 
   final String act;
 
@@ -24,7 +15,5 @@ public enum Action implements JsonFile {
   public String getFileName() {
     return act;
   }
-
-
 
 }

@@ -1,4 +1,4 @@
-package com.whitewoodcity.xtrikeresources.clancy;
+package com.whitewoodcity.xtrikeresources.characters.clancy;
 
 import com.whitewoodcity.xtrikeresources.JVGComponent;
 

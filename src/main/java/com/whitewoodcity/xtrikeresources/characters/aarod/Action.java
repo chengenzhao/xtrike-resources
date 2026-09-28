@@ -1,9 +1,11 @@
-package com.whitewoodcity.xtrikeresources.yang;
+package com.whitewoodcity.xtrikeresources.characters.aarod;
 
 import com.whitewoodcity.xtrikeresources.JsonFile;
 
 public enum Action implements JsonFile {
-  IDLE("idle.act");
+
+  IDLE("idle.act"),
+  ;
 
   final String act;
 

@@ -1,12 +1,12 @@
-package com.whitewoodcity.xtrikeresources.yang;
+package com.whitewoodcity.xtrikeresources.characters.yang;
 
 import com.whitewoodcity.xtrikeresources.JVGComponent;
 import com.whitewoodcity.xtrikeresources.JsonFile;
 
 import java.util.List;
 
-import static com.whitewoodcity.xtrikeresources.yang.Action.IDLE;
-import static com.whitewoodcity.xtrikeresources.yang.Components.*;
+import static com.whitewoodcity.xtrikeresources.characters.yang.Action.IDLE;
+import static com.whitewoodcity.xtrikeresources.characters.yang.Components.*;
 
 public class Yang {
   public static final List<JVGComponent> JVG_COMPONENTS = List.of(RIGHT_HAND, RIGHT_ARM, RIGHT_THIGH, RIGHT_CALF, RIGHT_SHOE, LEFT_THIGH, LEFT_CALF, LEFT_SHOE, RIGHT_SHOULDER, HEAD_TIE, LEFT_BODY, RIGHT_BODY, AIGUILLETTE, LEFT_HAND, LEFT_ARM, EPAULETTES);
