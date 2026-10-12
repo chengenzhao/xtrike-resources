@@ -24,7 +24,4 @@ public enum Action implements JsonFile {
   public String getFileName() {
     return act;
   }
-
-
-
 }

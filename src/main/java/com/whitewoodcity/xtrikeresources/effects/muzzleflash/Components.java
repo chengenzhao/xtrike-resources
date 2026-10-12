@@ -1,7 +1,7 @@
 package com.whitewoodcity.xtrikeresources.effects.muzzleflash;
 
 import com.whitewoodcity.xtrikeresources.JsonFile;
-
+@Deprecated
 public enum Components implements JsonFile {
   FLASH0("flash0.jvg"),
   FLASH1("flash1.jvg"),
