@@ -7,4 +7,5 @@ open module com.whitewoodcity.xtrikeresources {
   exports com.whitewoodcity.xtrikeresources.monsters.bones;
   exports com.whitewoodcity.xtrikeresources.monsters.orcus;
   exports com.whitewoodcity.xtrikeresources.empire.soldier;
+  exports com.whitewoodcity.xtrikeresources.effects.muzzleflash;
 }

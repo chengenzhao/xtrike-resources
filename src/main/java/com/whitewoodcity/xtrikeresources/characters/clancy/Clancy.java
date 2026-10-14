@@ -2,6 +2,7 @@ package com.whitewoodcity.xtrikeresources.characters.clancy;
 
 import com.whitewoodcity.xtrikeresources.JVGComponent;
 import com.whitewoodcity.xtrikeresources.JsonFile;
+import com.whitewoodcity.xtrikeresources.effects.muzzleflash.*;
 
 import java.util.List;
 
@@ -17,6 +18,11 @@ public class Clancy {
   public static final List<JsonFile> BATTLE_UPPER_ACTIONS        = List.of(ALERT, SHOOT, FIRE);
   public static final List<JVGComponent> BATTLE_LOWER_BODY     = List.of(RIGHT_CALF, RIGHT_SHOE, RIGHT_THIGH, RIGHT_KNEE, LEFT_CALF, LEFT_SHOE, LEFT_THIGH, LEFT_KNEE);
   public static final List<JsonFile> BATTLE_LOWER_ACTIONS        = List.of(IDLE, WALK, RUN, JUMP);
+  @Deprecated
   public static final List<JVGComponent> FLAME_JVG_COMPONENTS  = List.of(FLAME0, FLAME1, FLAME2, FLAME3, FLAME4, FLAME5);
+  @Deprecated
   public static final List<JsonFile> FLAME_ACTIONS               = List.of(FLAME);
+
+  public static final List<Footage> MUZZLE_FLASH = List.of(Footage.FLASH);
+  public static final List<Anime> FLASH_ANIMES = List.of(Anime.FLASH);
 }
