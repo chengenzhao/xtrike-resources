@@ -2,7 +2,6 @@ package com.whitewoodcity.xtrikeresources.characters.clancy;
 
 import com.whitewoodcity.xtrikeresources.JVGComponent;
 import com.whitewoodcity.xtrikeresources.JsonFile;
-import com.whitewoodcity.xtrikeresources.effects.muzzleflash.*;
 
 import java.util.List;
 
@@ -22,7 +21,4 @@ public class Clancy {
   public static final List<JVGComponent> FLAME_JVG_COMPONENTS  = List.of(FLAME0, FLAME1, FLAME2, FLAME3, FLAME4, FLAME5);
   @Deprecated
   public static final List<JsonFile> FLAME_ACTIONS               = List.of(FLAME);
-
-  public static final List<Footage> MUZZLE_FLASH = List.of(Footage.FLASH);
-  public static final List<Anime> FLASH_ANIMES = List.of(Anime.FLASH);
 }
