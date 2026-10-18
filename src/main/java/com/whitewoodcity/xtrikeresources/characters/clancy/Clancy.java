@@ -9,7 +9,7 @@ import static com.whitewoodcity.xtrikeresources.characters.clancy.Action.*;
 import static com.whitewoodcity.xtrikeresources.characters.clancy.Components.*;
 
 public class Clancy {
-  public static final List<JVGComponent> CASUAL_JVG_COMPONENTS = List.of(RIGHT_ARM, RIGHT_WRIST, RIGHT_CALF, RIGHT_SHOE, RIGHT_THIGH, RIGHT_KNEE, LEFT_CALF, LEFT_SHOE, LEFT_THIGH, LEFT_KNEE, BODY_BACK, HEAD, BODY_FRONT, LEFT_ARM, LEFT_WRIST, LEFT_ELBOW);
+  public static final List<JVGComponent> CASUAL_JVG_COMPONENTS = List.of(RIGHT_ARM,RIGHT_WRIST,RIGHT_CALF,RIGHT_SHOE,RIGHT_THIGH,RIGHT_KNEE,LEFT_CALF,LEFT_SHOE,LEFT_THIGH,LEFT_KNEE,BODY_BACK,HEAD,BODY_FRONT,LEFT_ARM,LEFT_WRIST,LEFT_ELBOW);
   public static final List<JsonFile> CASUAL_ACTIONS              = List.of(IDLE, WALK, RUN, JUMP);
 
   public static final List<JVGComponent> BATTLE_JVG_COMPONENTS = List.of(RIGHT_ARM, RIGHT_WRIST, RIGHT_CALF, RIGHT_SHOE, RIGHT_THIGH, RIGHT_KNEE, LEFT_CALF, LEFT_SHOE, LEFT_THIGH, LEFT_KNEE, BODY_BACK, HEAD, BODY_FRONT, SCARL, LEFT_ARM, LEFT_WRIST, LEFT_ELBOW, RIGHT_PALM);
