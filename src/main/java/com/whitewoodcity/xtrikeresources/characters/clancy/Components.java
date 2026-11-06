@@ -25,13 +25,6 @@ public enum Components implements JVGComponent {
   SCARL       ("scarl.jvg",1),
   RIGHT_PALM  ("right_palm.jvg",1),
 
-  //flame
-  FLAME0("flame0.jvg",1),
-  FLAME1("flame1.jvg",1),
-  FLAME2("flame2.jvg",1),
-  FLAME3("flame3.jvg",1),
-  FLAME4("flame4.jvg",1),
-  FLAME5("flame5.jvg",1),
   ;
 
   final String jvg;
