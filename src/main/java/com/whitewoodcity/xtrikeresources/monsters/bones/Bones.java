@@ -9,6 +9,6 @@ import static com.whitewoodcity.xtrikeresources.monsters.bones.Action.*;
 import static com.whitewoodcity.xtrikeresources.monsters.bones.Components.*;
 
 public class Bones {
-  public static final List<JVGComponent> JVG_COMPONENTS = List.of(RIGHT_ARM,BLADE,RIGHT_THIGH, RIGHT_FOOT,LEFT_THIGH, BODY, LEFT_FOOT,  LEFT_SHOULDER, LEFT_HAND, LEFT_ARM, HEAD);
-  public static final List<JsonFile> ACTIONS            = List.of(IDLE,WALK, ATTACK);
+  public static final List<JVGComponent> SPRITE = List.of(RIGHT_ARM,BLADE,RIGHT_THIGH, RIGHT_FOOT,LEFT_THIGH, BODY, LEFT_FOOT,  LEFT_SHOULDER, LEFT_HAND, LEFT_ARM, HEAD);
+  public static final List<JsonFile> SPRITE_ACTIONS = List.of(IDLE,WALK, ATTACK);
 }
