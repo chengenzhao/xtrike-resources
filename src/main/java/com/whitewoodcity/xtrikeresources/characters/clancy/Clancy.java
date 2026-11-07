@@ -10,11 +10,11 @@ import static com.whitewoodcity.xtrikeresources.characters.clancy.Components.*;
 
 public class Clancy {
   public static final List<JVGComponent> CASUAL_SPRITE = List.of(RIGHT_ARM,RIGHT_WRIST,RIGHT_CALF,RIGHT_SHOE,RIGHT_THIGH,RIGHT_KNEE,LEFT_CALF,LEFT_SHOE,LEFT_THIGH,LEFT_KNEE,BODY_BACK,HEAD,BODY_FRONT,LEFT_ARM,LEFT_WRIST,LEFT_ELBOW);
-  public static final List<JsonFile> CASUAL_SPRITE_ACTIONS = List.of(IDLE, WALK, RUN, JUMP);
+  public static final List<JsonFile> CASUAL_SPRITE_ANIMATION = List.of(IDLE, WALK, RUN, JUMP);
 
   public static final List<JVGComponent> BATTLE_SPRITE = List.of(RIGHT_ARM, RIGHT_WRIST, RIGHT_CALF, RIGHT_SHOE, RIGHT_THIGH, RIGHT_KNEE, LEFT_CALF, LEFT_SHOE, LEFT_THIGH, LEFT_KNEE, BODY_BACK, HEAD, BODY_FRONT, SCARL, LEFT_ARM, LEFT_WRIST, LEFT_ELBOW, RIGHT_PALM);
   public static final List<JVGComponent> BATTLE_UPPER_BODY     = List.of(RIGHT_ARM, RIGHT_WRIST, BODY_BACK, HEAD, BODY_FRONT, SCARL, LEFT_ARM, LEFT_WRIST, LEFT_ELBOW, RIGHT_PALM);
-  public static final List<JsonFile> BATTLE_UPPER_ACTIONS        = List.of(ALERT, SHOOT, FIRE);
+  public static final List<JsonFile> BATTLE_UPPER_ANIMATION = List.of(ALERT, SHOOT, FIRE);
   public static final List<JVGComponent> BATTLE_LOWER_BODY     = List.of(RIGHT_CALF, RIGHT_SHOE, RIGHT_THIGH, RIGHT_KNEE, LEFT_CALF, LEFT_SHOE, LEFT_THIGH, LEFT_KNEE);
-  public static final List<JsonFile> BATTLE_LOWER_ACTIONS        = List.of(IDLE, WALK, RUN, JUMP);
+  public static final List<JsonFile> BATTLE_LOWER_ANIMATION = List.of(IDLE, WALK, RUN, JUMP);
 }
