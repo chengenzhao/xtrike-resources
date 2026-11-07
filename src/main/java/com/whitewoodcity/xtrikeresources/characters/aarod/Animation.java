@@ -1,16 +1,15 @@
-package com.whitewoodcity.xtrikeresources.monsters.bones;
+package com.whitewoodcity.xtrikeresources.characters.aarod;
 
 import com.whitewoodcity.xtrikeresources.JsonFile;
 
-public enum Action implements JsonFile {
+public enum Animation implements JsonFile {
+
   IDLE("idle.act"),
-  WALK("walk.act"),
-  ATTACK("attack.act"),
   ;
 
   final String act;
 
-  Action(String act) {
+  Animation(String act) {
     this.act = act;
   }
 

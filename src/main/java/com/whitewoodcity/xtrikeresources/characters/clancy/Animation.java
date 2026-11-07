@@ -2,7 +2,7 @@ package com.whitewoodcity.xtrikeresources.characters.clancy;
 
 import com.whitewoodcity.xtrikeresources.JsonFile;
 
-public enum Action implements JsonFile {
+public enum Animation implements JsonFile {
   WALK("walk.act"),
   RUN("run.act"),
   JUMP("jump.act"),
@@ -16,7 +16,7 @@ public enum Action implements JsonFile {
 
   final String act;
 
-  Action(String act) {
+  Animation(String act) {
     this.act = act;
   }
 

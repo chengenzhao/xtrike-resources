@@ -5,7 +5,7 @@ import com.whitewoodcity.xtrikeresources.JsonFile;
 
 import java.util.List;
 
-import static com.whitewoodcity.xtrikeresources.characters.clancy.Action.*;
+import static com.whitewoodcity.xtrikeresources.characters.clancy.Animation.*;
 import static com.whitewoodcity.xtrikeresources.characters.clancy.Components.*;
 
 public class Clancy {

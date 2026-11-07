@@ -5,7 +5,7 @@ import com.whitewoodcity.xtrikeresources.JsonFile;
 
 import java.util.List;
 
-import static com.whitewoodcity.xtrikeresources.monsters.bones.Action.*;
+import static com.whitewoodcity.xtrikeresources.monsters.bones.Animation.*;
 import static com.whitewoodcity.xtrikeresources.monsters.bones.Components.*;
 
 public class Bones {

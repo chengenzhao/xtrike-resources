@@ -1,13 +1,13 @@
-package com.whitewoodcity.xtrikeresources.characters.yang;
+package com.whitewoodcity.xtrikeresources.empire.kaelzor;
 
 import com.whitewoodcity.xtrikeresources.JsonFile;
 
-public enum Action implements JsonFile {
-  IDLE("idle.act");
-
+public enum Animation implements JsonFile {
+  IDLE("idle.act"),
+  ;
   final String act;
 
-  Action(String act) {
+  Animation(String act) {
     this.act = act;
   }
 
@@ -15,5 +15,4 @@ public enum Action implements JsonFile {
   public String getFileName() {
     return act;
   }
-
 }

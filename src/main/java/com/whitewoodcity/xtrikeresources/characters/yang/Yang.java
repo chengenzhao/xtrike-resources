@@ -5,7 +5,7 @@ import com.whitewoodcity.xtrikeresources.JsonFile;
 
 import java.util.List;
 
-import static com.whitewoodcity.xtrikeresources.characters.yang.Action.IDLE;
+import static com.whitewoodcity.xtrikeresources.characters.yang.Animation.IDLE;
 import static com.whitewoodcity.xtrikeresources.characters.yang.Components.*;
 
 public class Yang {

@@ -5,7 +5,7 @@ import com.whitewoodcity.xtrikeresources.JsonFile;
 
 import java.util.List;
 
-import static com.whitewoodcity.xtrikeresources.monsters.orcus.Action.*;
+import static com.whitewoodcity.xtrikeresources.monsters.orcus.Animation.*;
 import static com.whitewoodcity.xtrikeresources.monsters.orcus.Components.*;
 
 public class Orcus {

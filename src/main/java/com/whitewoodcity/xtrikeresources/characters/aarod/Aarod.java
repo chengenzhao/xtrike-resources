@@ -5,7 +5,7 @@ import com.whitewoodcity.xtrikeresources.JsonFile;
 
 import java.util.List;
 
-import static com.whitewoodcity.xtrikeresources.characters.aarod.Action.IDLE;
+import static com.whitewoodcity.xtrikeresources.characters.aarod.Animation.IDLE;
 import static com.whitewoodcity.xtrikeresources.characters.aarod.Components.*;
 
 public class Aarod {

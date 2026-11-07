@@ -1,17 +1,16 @@
-package com.whitewoodcity.xtrikeresources.empire.soldier;
+package com.whitewoodcity.xtrikeresources.monsters.bones;
 
 import com.whitewoodcity.xtrikeresources.JsonFile;
 
-public enum Action implements JsonFile {
+public enum Animation implements JsonFile {
   IDLE("idle.act"),
   WALK("walk.act"),
-  THRUST("thrust.act"),
-  SHOOT("shoot.act"),
+  ATTACK("attack.act"),
   ;
 
   final String act;
 
-  Action(String act) {
+  Animation(String act) {
     this.act = act;
   }
 
@@ -19,4 +18,5 @@ public enum Action implements JsonFile {
   public String getFileName() {
     return act;
   }
+
 }
