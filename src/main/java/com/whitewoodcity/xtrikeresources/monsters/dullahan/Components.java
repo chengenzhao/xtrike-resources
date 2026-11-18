@@ -3,14 +3,15 @@ package com.whitewoodcity.xtrikeresources.monsters.dullahan;
 import com.whitewoodcity.xtrikeresources.JVGComponent;
 
 public enum Components implements JVGComponent {
+
   SPEARHEAD("spearhead.jvg",3),
   VAMBRACE("vambrace.jvg",2),
   SABATON("sabaton.jvg",3),
   GREAVE("greave.jvg",2),
   SHAFFRON("shaffron.jvg",1),
-  MANE("mane.jvg",1),
   SHAFT("shaft.jvg",3),
   CUISSARD("cuissard.jvg",1),
+  MANE("mane.jvg",1),
   REREBRACE("rerebrace.jvg",1),
   TASSETS("tassets.jvg",1),
   FLANCHARD("flanchard.jvg",1),
