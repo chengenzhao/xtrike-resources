@@ -25,6 +25,29 @@ public enum Components implements JVGComponent {
   SCARL       ("scarl.jvg",1),
   RIGHT_PALM  ("right_palm.jvg",1),
 
+  //mug
+  HAIR0("hair0.jvg",1),
+  HAIR1("hair1.jvg",1),
+  HAIR2("hair2.jvg",1),
+  HEADBAND("headband.jvg",1),
+  HAIR4("hair4.jvg",1),
+  HAIR3("hair3.jvg",1),
+  HAIR5("hair5.jvg",1),
+  HAIR6("hair6.jvg",1),
+  LEFT_EYE("left_eye.jvg",1),
+  RIGHT_EYE("right_eye.jvg",1),
+  NOSE("nose.jvg",1),
+  MOUTH("mouth.jvg",1),
+  FACE("face.jvg",1),
+  HAIR7("hair7.jvg",1),
+  EAR("ear.jvg",1),
+  HAIR8("hair8.jvg",1),
+  COLLARBONE_LINE("collarbone_line.jvg",1),
+  RIGHT_SHOULDER("right_shoulder.jvg",1),
+  NECK("neck.jvg",1),
+  LEFT_SHOULDER("left_shoulder.jvg",1),
+  T_SHIRT("t_shirt.jvg",1),
+  HAIR9("hair9.jvg",1),
   ;
 
   final String jvg;
