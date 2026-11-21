@@ -11,8 +11,7 @@ public enum Animation implements JsonFile {
   ALERT("alert.act"),
   SHOOT("shoot.act"),
   FIRE("fire.act"),
-
-  FLAME("flame.act");
+  ;
 
   final String act;
 
