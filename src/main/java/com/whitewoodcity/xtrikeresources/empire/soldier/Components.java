@@ -1,6 +1,6 @@
 package com.whitewoodcity.xtrikeresources.empire.soldier;
 
-import com.whitewoodcity.xtrikeresources.JVGComponent;
+import io.javafx.whitewoodcity.JVGComponent;
 
 public enum Components implements JVGComponent {
   LEFT_SHOULDER("left_shoulder.jvg",1),

@@ -1,6 +1,6 @@
 package com.whitewoodcity.xtrikeresources.characters.yang;
 
-import com.whitewoodcity.xtrikeresources.JVGComponent;
+import io.javafx.whitewoodcity.JVGComponent;
 
 public enum Components implements JVGComponent {
   EPAULETTES        ("epaulettes.jvg", 1),

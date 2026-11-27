@@ -1,4 +1,6 @@
 open module com.whitewoodcity.xtrikeresources {
+  requires io.javafx.whitewoodcity.transitfx;
+
   exports com.whitewoodcity.xtrikeresources;
   exports com.whitewoodcity.xtrikeresources.characters.clancy;
   exports com.whitewoodcity.xtrikeresources.characters.yang;

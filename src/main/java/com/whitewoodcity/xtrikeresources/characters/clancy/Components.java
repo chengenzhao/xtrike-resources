@@ -1,6 +1,6 @@
 package com.whitewoodcity.xtrikeresources.characters.clancy;
 
-import com.whitewoodcity.xtrikeresources.JVGComponent;
+import io.javafx.whitewoodcity.JVGComponent;
 
 public enum Components implements JVGComponent {
 

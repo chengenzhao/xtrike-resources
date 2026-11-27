@@ -1,6 +1,6 @@
 package com.whitewoodcity.xtrikeresources.landscape;
 
-import com.whitewoodcity.xtrikeresources.JsonFile;
+import io.javafx.whitewoodcity.JsonFile;
 
 public enum Landscape implements JsonFile {
   CLOUD("cloud.jvg");

@@ -1,7 +1,7 @@
 package com.whitewoodcity.xtrikeresources.characters.clancy;
 
-import com.whitewoodcity.xtrikeresources.JVGComponent;
-import com.whitewoodcity.xtrikeresources.JsonFile;
+import io.javafx.whitewoodcity.JVGComponent;
+import io.javafx.whitewoodcity.JsonFile;
 
 import java.util.List;
 

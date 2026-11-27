@@ -1,6 +1,6 @@
 package com.whitewoodcity.xtrikeresources.effects.muzzleflash;
 
-import com.whitewoodcity.xtrikeresources.JsonFile;
+import io.javafx.whitewoodcity.JsonFile;
 
 import java.util.List;
 

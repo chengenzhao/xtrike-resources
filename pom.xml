@@ -6,10 +6,9 @@
 
     <groupId>io.github.chengenzhao</groupId>
     <artifactId>xtrike-resources</artifactId>
-    <version>3.2.13</version>
+    <version>3.3</version>
     <name>xtrike-resources</name>
-    <description>JVG resources.
-    </description>
+    <description>JVG resources.</description>
     <url>https://github.com/chengenzhao/xtrike-resources</url>
 
     <licenses>
@@ -39,6 +38,14 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.github.chengenzhao</groupId>
+            <artifactId>transitfx</artifactId>
+            <version>2.5</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>

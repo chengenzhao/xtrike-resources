@@ -1,6 +1,6 @@
 package com.whitewoodcity.xtrikeresources.characters.clancy;
 
-import com.whitewoodcity.xtrikeresources.JsonFile;
+import io.javafx.whitewoodcity.JsonFile;
 
 public enum Animation implements JsonFile {
   WALK("walk.act"),

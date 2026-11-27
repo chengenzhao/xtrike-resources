@@ -1,5 +1,9 @@
 package com.whitewoodcity.xtrikeresources;
 
+/**
+ * Replaced by {@link io.javafx.whitewoodcity.JsonFile}
+ */
+@Deprecated
 public interface JsonFile {
 
   String getFileName();

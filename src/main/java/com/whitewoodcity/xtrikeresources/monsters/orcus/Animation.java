@@ -1,6 +1,6 @@
 package com.whitewoodcity.xtrikeresources.monsters.orcus;
 
-import com.whitewoodcity.xtrikeresources.JsonFile;
+import io.javafx.whitewoodcity.JsonFile;
 
 public enum Animation implements JsonFile {
   IDLE("idle.act"),

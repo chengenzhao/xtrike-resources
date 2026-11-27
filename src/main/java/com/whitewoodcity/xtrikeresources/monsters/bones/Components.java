@@ -1,6 +1,6 @@
 package com.whitewoodcity.xtrikeresources.monsters.bones;
 
-import com.whitewoodcity.xtrikeresources.JVGComponent;
+import io.javafx.whitewoodcity.JVGComponent;
 
 public enum Components implements JVGComponent {
   BLADE("blade.jvg",2),

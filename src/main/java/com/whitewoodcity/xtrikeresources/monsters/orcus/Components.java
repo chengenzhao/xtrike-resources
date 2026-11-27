@@ -1,6 +1,6 @@
 package com.whitewoodcity.xtrikeresources.monsters.orcus;
 
-import com.whitewoodcity.xtrikeresources.JVGComponent;
+import io.javafx.whitewoodcity.JVGComponent;
 
 public enum Components implements JVGComponent {
   RIGHT_PALM  ("right_palm.jvg",3),
