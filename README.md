@@ -3,7 +3,7 @@ ajvg files -> could be opened by [FXCity Editor](https://github.com/chengenzhao/
 jvg & act files -> could be used by [TransitFX](https://github.com/chengenzhao/transitfx).    
 
 ## Maven
-If you are using Maven, add the following dependency to the dependencies section of your project descriptor to access the FX City API:
+If you are using Maven, add the following dependency to the dependencies section of your project descriptor to access the resources:
 ```xml
 <dependency>
     <groupId>io.github.chengenzhao</groupId>
